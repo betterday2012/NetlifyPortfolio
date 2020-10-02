@@ -62,10 +62,10 @@
     </section>
 
     <section id="introduction" class="tm-section-pad-top">
-        <div class="container">
+        <div></div> class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <img src="img/the-town-01.jpg" alt="Image" class="img-fluid tm-intro-img" />
+                    <img src=img/headshot.jpg alt="headshot" class="img-fluid tm-intro-img" />
                 </div>
                 <div class="col-lg-6">
                     <div class="tm-intro-text-container">
@@ -201,41 +201,58 @@
                         <div class="tm-underline-inner"></div>
                     </div>
                     <p class="mb-5">
-                       I look forward to speaking with you on how we can partner in achieving the goals of your organization. Don't hesistate to call or email me today to bring you one step closer to the solution you are seeking!
+                        I look forward to speaking with you on how we can partner in achieving the goals of your organization. Don't hesistate to call or email me today to bring you one step closer to the resolve of your issues.
                     </p>
                 </div>
 
                 <div class="col-sm-12 col-md-6 d-flex align-items-center tm-contact-item">
                     <a href="tel:0100200340" class="tm-contact-item-link">
                         <i class="fas fa-3x fa-phone mr-4"></i>
-                        <span class="mb-0">010-020-0340</span>
+                        <span class="mb-0">704-694-5576</span>
                     </a>
                 </div>
                 <div class="col-sm-12 col-md-6 d-flex align-items-center tm-contact-item">
                     <a href="mailto:info@company.co" class="tm-contact-item-link">
                         <i class="fas fa-3x fa-envelope mr-4"></i>
-                        <span class="mb-0">info@company.co</span>
+                        <span class="mb-0">levanderingram@gmail.com</span>
                     </a>
                 </div>
-                <div class="col-sm-12 col-md-6 d-flex align-items-center tm-contact-item">
-                    <a href="https://www.google.com/maps" class="tm-contact-item-link">
-                        <i class="fas fa-3x fa-map-marker-alt mr-4"></i>
-                        <span class="mb-0">Location on Maps</span>
-                    </a>
-                </div>
-                <div class="col-sm-12 col-md-6 d-flex align-items-center tm-contact-item">
-                    <form action="" method="get">
-                        <input name="email" type="email" placeholder="Subscribe your email" class="tm-input" required />
-                        <button type="submit" class="btn tm-btn-submit">Submit</button>
-                    </form>
-                </div>
+                <
             </div>
+            <form id="form">
+            <div class="field">
+                <label for="subject">subject</label>
+                <input type="text" name="subject" id="subject">
+            </div>
+            <div class="field">
+                <label for="message">message</label>
+                <input type="text" name="message" id="message">
+            </div>
+            <div class="field">
+                <label for="name">name</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div class="field">
+                <label for="reply_to">reply_to</label>
+                <input type="text" name="reply_to" id="reply_to">
+            </div>
+
+            <input type="submit" id="button" value="Send Email">
+            </form>
+
+            <script type="text/javascript"
+                    src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+
+            <script type="text/javascript">
+                emailjs.init('user_P1a4oFb4GgVnfYjxCItjn')
+            </script>
         </div>
+            
         <footer class="text-center small tm-footer">
             <p class="mb-0">
-                Copyright &copy; 2019 Company Name
+                Copyright &copy; 2020 Coder Foundry
 
-                - Design: <a rel="nofollow" href="https://templatemo.com" class="tm-footer-link">Template Mo</a>
+                
             </p>
         </footer>
     </section>
